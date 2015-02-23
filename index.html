@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="styles.css" />
+    <script data-require="polymer@0.1.4" data-semver="0.1.4" src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.1.4/platform.js"></script>
+    <script data-require="polymer@0.1.4" data-semver="0.1.4" src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.1.4/polymer.js"></script>
+    <link rel="import" href="list.html" />
+    <link rel="import" href="greeting.html" />
+    <link rel="import" href="burn-icon-set.html" />
+    <link rel="import" href="dogz-element.html" />
+  </head>
+
+  <body>
+    <div class="hero-unit">
+      <polymer-greeting></polymer-greeting>
+      <p>this is</p>
+      <burn-icon-set id="element">
+        <burn-icon-set></burn-icon-set>
+      </burn-icon-set>
+      <p>riding</p>
+      <polymer-list>
+        <polymer-list></polymer-list>
+      </polymer-list>
+
+    </div>
+    <burn-icon-set id="element">
+      <burn-icon-set></burn-icon-set>
+    </burn-icon-set>
+
+    <dogz-element></dogz-element>
+  </body>
+
+</html>
